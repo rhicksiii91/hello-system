@@ -1,6 +1,6 @@
 var http = require('http');
 
-const PORT = 8888;
+const PORT = 8881;
 
 function requestHandler(req, res) {
 	res.end(`Hello ${process.platform}`);
